@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Form</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Пожалуйста, укажите Ваше имя и фамилию</h1>
+        <h2>
+          Чтобы облегчить общение и поиск друзей, у нас приняты настоящие имена
+          и фамилии.
+        </h2>
+        <div class="form-wrapper">
+          <form action="#">
+
+            <p><input type="text" required placeholder="Ваше имя" /></p>
+            <p><input type="text" required placeholder="Ваша фамилия" /></p>
+
+            <h3>Дата рождения</h3>
+
+            <select name="day">
+              <option value="День" hidden>День</option>
+              <option value="07" hidden>07</option>
+              <option value="08" hidden>08</option>
+            </select>
+
+            <select name="month">
+              <option value="Месяц" hidden>Месяц</option>
+              <option value="Июль" hidden>Июль</option>
+              <option value="Август" hidden>Август</option>
+            </select>
+
+            <select name="year">
+              <option value="Год" hidden>Год</option>
+              <option value="1998" hidden>1998</option>
+              <option value="1999" hidden>1999</option>
+            </select>
+
+            <button>Зарегистрироваться</button>
+
+            <p class="or">или</p>
+
+            <a href="#">Продолжить с Facebook</a>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
